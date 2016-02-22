@@ -1,0 +1,12 @@
+{application, mmoServer,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { mmoServer_app, []}},
+  {env, []}
+ ]}.

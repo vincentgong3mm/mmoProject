@@ -1,0 +1,9 @@
+{application,mmoServer,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{mmoServer_app,[]}},
+              {env,[]},
+              {modules,[connectionManager,mmoServer_app,mmoServer_sup,
+                        tcpModule]}]}.

@@ -1,0 +1,18 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "erlang",
+			"type": "",
+			"request": "launch",
+			"runtimeExecutable": "erl",
+			"args": [
+				"aa"
+			],
+			"stopOnEntry": false,
+			"sourceMaps": true,
+			"outDir": "out",
+			"preLaunchTask": "npm"
+		}
+	]
+}
