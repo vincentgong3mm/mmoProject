@@ -31,6 +31,7 @@ acceptProcess({ListenSocket, Status}) ->
     
     case gen_tcp:accept(ListenSocket) of 
     {ok, ClientSocket} ->
+
         ProcRequestProcessId = spawn(Status#status.procRequestFun),
         %%ProcRequestProcessId = spawn(connectionManager, procClientRequest, []),
         
